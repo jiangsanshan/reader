@@ -1,0 +1,553 @@
+{
+  "speechToTextMode": "auto",
+  "agentPermissionMode": "ask",
+  "editorShortcuts": [
+    {
+      "id": "undo",
+      "value": "Mod+Z"
+    },
+    {
+      "id": "redo",
+      "value": "Shift+Mod+Z"
+    },
+    {
+      "id": "setParagraph",
+      "value": "Mod+Alt+0"
+    },
+    {
+      "id": "toggleHeading1",
+      "value": "Mod+Alt+1"
+    },
+    {
+      "id": "toggleHeading2",
+      "value": "Mod+Alt+2"
+    },
+    {
+      "id": "toggleHeading3",
+      "value": "Mod+Alt+3"
+    },
+    {
+      "id": "toggleHeading4",
+      "value": "Mod+Alt+4"
+    },
+    {
+      "id": "toggleHeading5",
+      "value": "Mod+Alt+5"
+    },
+    {
+      "id": "toggleHeading6",
+      "value": "Mod+Alt+6"
+    },
+    {
+      "id": "openSearch",
+      "value": "Mod+F"
+    },
+    {
+      "id": "openSlashCommand",
+      "value": "Mod+/"
+    },
+    {
+      "id": "toggleOutline",
+      "value": "Shift+Mod+O"
+    },
+    {
+      "id": "toggleBold",
+      "value": "Mod+B"
+    },
+    {
+      "id": "toggleItalic",
+      "value": "Mod+I"
+    },
+    {
+      "id": "toggleStrike",
+      "value": "Shift+Mod+S"
+    },
+    {
+      "id": "toggleUnderline",
+      "value": "Mod+U"
+    },
+    {
+      "id": "toggleInlineCode",
+      "value": "Mod+E"
+    },
+    {
+      "id": "toggleHighlight",
+      "value": "Shift+Mod+H"
+    },
+    {
+      "id": "openLinkInput",
+      "value": "Mod+K"
+    },
+    {
+      "id": "toggleBlockquote",
+      "value": "Shift+Mod+B"
+    },
+    {
+      "id": "toggleBulletList",
+      "value": "Shift+Mod+8"
+    },
+    {
+      "id": "toggleOrderedList",
+      "value": "Shift+Mod+7"
+    },
+    {
+      "id": "toggleTaskList",
+      "value": "Shift+Mod+9"
+    },
+    {
+      "id": "toggleCodeBlock",
+      "value": "Mod+Alt+C"
+    },
+    {
+      "id": "openAiMenu",
+      "value": "Mod+J"
+    },
+    {
+      "id": "aiContinue",
+      "value": "Shift+Mod+J"
+    },
+    {
+      "id": "aiPolish",
+      "value": ""
+    },
+    {
+      "id": "aiConcise",
+      "value": ""
+    },
+    {
+      "id": "aiExpand",
+      "value": ""
+    },
+    {
+      "id": "aiTranslate",
+      "value": ""
+    },
+    {
+      "id": "acceptAiSuggestion",
+      "value": "Mod+Enter"
+    },
+    {
+      "id": "rejectAiSuggestion",
+      "value": "Escape"
+    },
+    {
+      "id": "abortAiGeneration",
+      "value": "Mod+."
+    },
+    {
+      "id": "insertTable",
+      "value": "Mod+Alt+T"
+    },
+    {
+      "id": "addColumnBefore",
+      "value": ""
+    },
+    {
+      "id": "addColumnAfter",
+      "value": ""
+    },
+    {
+      "id": "addRowBefore",
+      "value": ""
+    },
+    {
+      "id": "addRowAfter",
+      "value": ""
+    },
+    {
+      "id": "deleteColumn",
+      "value": ""
+    },
+    {
+      "id": "deleteRow",
+      "value": ""
+    },
+    {
+      "id": "deleteTable",
+      "value": ""
+    },
+    {
+      "id": "alignLeft",
+      "value": "Shift+Mod+L"
+    },
+    {
+      "id": "alignCenter",
+      "value": "Shift+Mod+E"
+    },
+    {
+      "id": "alignRight",
+      "value": "Shift+Mod+R"
+    },
+    {
+      "id": "insertImage",
+      "value": "Shift+Mod+I"
+    },
+    {
+      "id": "insertInlineMath",
+      "value": "Mod+Alt+M"
+    },
+    {
+      "id": "insertBlockMath",
+      "value": "Shift+Mod+Alt+M"
+    },
+    {
+      "id": "insertMermaid",
+      "value": "Mod+Alt+D"
+    },
+    {
+      "id": "insertHorizontalRule",
+      "value": "Mod+Alt+-"
+    }
+  ],
+  "markDescModel": "note-gen-free-chat",
+  "canvasSnapToGrid": false,
+  "recordSaveTargetMode": "current",
+  "showEditorStats": true,
+  "gitlabAutoSync": "disabled",
+  "primaryModel": "note-gen-chat",
+  "noteGenModelPolicyCache": {
+    "content": {
+      "free": {
+        "displayName": "Qwen3-8B",
+        "model": "Qwen/Qwen3-8B"
+      },
+      "limited": {
+        "dailyRequestLimit": 200,
+        "displayName": "GPT6 Luna",
+        "model": "gpt-6-luna"
+      },
+      "schemaVersion": 1,
+      "title": "NoteGen"
+    },
+    "versionCode": 101
+  },
+  "canvasGridStyle": "dots",
+  "currentTagId": 1,
+  "leftSidebarTab": "files",
+  "canvasManagerViewMode": "grid",
+  "canvasGridGap": 20,
+  "promptList": [
+    {
+      "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
+      "id": "0",
+      "isDefault": true,
+      "title": "写作助手"
+    }
+  ],
+  "commitModel": "note-gen-chat",
+  "outlineOpenByFile:default:Daily%2F2026%2F10%2F2026-10-01.md": false,
+  "autoUpdate": true,
+  "audioModel": "",
+  "embeddingModel": "note-gen-embedding",
+  "enableImageRecognition": true,
+  "rerankingModel": "",
+  "githubCustomImageRepo": "",
+  "giteaCustomUrl": "",
+  "giteaInstanceType": "gitea.com",
+  "currentAi": "",
+  "autoPullOnOpen": true,
+  "giteeAutoSync": "disabled",
+  "canvasMinimapVisible": true,
+  "shortcuts": [
+    {
+      "key": "openWindow",
+      "value": ""
+    },
+    {
+      "key": "screenshotRecord",
+      "value": ""
+    },
+    {
+      "key": "quickRecordText",
+      "value": ""
+    }
+  ],
+  "codeTheme": "github",
+  "rightSidebarVisible": false,
+  "sttModel": "note-gen-free-note-gen-stt",
+  "gitlabInstanceType": "gitlab.com",
+  "giteaUsername": "",
+  "canvasWheelBehavior": "zoom",
+  "language": "简体中文",
+  "gitlabUsername": "",
+  "agentCorePromptVersion": 4,
+  "showSourceLineNumbers": true,
+  "githubUsername": "jiangsanshan",
+  "canvasDefaultZoom": 1,
+  "recordToolbarConfig": [
+    {
+      "enabled": true,
+      "id": "text",
+      "order": 0
+    },
+    {
+      "enabled": true,
+      "id": "recording",
+      "order": 1
+    },
+    {
+      "enabled": true,
+      "id": "scan",
+      "order": 2
+    },
+    {
+      "enabled": true,
+      "id": "image",
+      "order": 3
+    },
+    {
+      "enabled": true,
+      "id": "link",
+      "order": 4
+    },
+    {
+      "enabled": true,
+      "id": "file",
+      "order": 5
+    },
+    {
+      "enabled": false,
+      "id": "todo",
+      "order": 6
+    }
+  ],
+  "recordTextSize": "sm",
+  "autoSync": "5",
+  "outlinePosition": "right",
+  "editorSourceWrap": true,
+  "editorContentWidth": "full",
+  "darkMode": "system",
+  "canvasInsertBehavior": "select",
+  "showEditorUndoRedo": true,
+  "giteaAutoSync": "disabled",
+  "recordCompletionBehavior": "highlight",
+  "recordViewMode": "list",
+  "showMobileEditorToolbar": true,
+  "currentPromptId": "0",
+  "completionModel": "note-gen-chat",
+  "jsdelivr": true,
+  "recordFilters": {
+    "search": "",
+    "selectedTypes": [],
+    "tagId": "all",
+    "tagRules": {
+      "exclude": [],
+      "include": [],
+      "match": "all"
+    },
+    "timePreset": "all"
+  },
+  "previewTheme": "github",
+  "canvasManagerSortMode": "updated",
+  "editorLineHeight": "comfortable",
+  "templateList": [
+    {
+      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
+      "id": "0",
+      "range": "all",
+      "status": true,
+      "title": "笔记"
+    },
+    {
+      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
+      "id": "1",
+      "range": "week",
+      "status": true,
+      "title": "周报"
+    }
+  ],
+  "newTabSectionVisibility": {
+    "order": [
+      "onboarding",
+      "actions",
+      "activity",
+      "activityDetail"
+    ],
+    "visibility": {
+      "actions": true,
+      "activity": true,
+      "activityDetail": true,
+      "onboarding": false
+    }
+  },
+  "imageMethodModel": "",
+  "agentSystemPromptExtension": "",
+  "recordSortMode": "newest",
+  "fixedRecordTagId": null,
+  "editorWorkspaceLayout:main": {
+    "activeGroupId": "editor-group-cb50649e-9912-4d04-ada6-ef98b9b6faad",
+    "groups": {
+      "editor-group-cb50649e-9912-4d04-ada6-ef98b9b6faad": {
+        "activeTabId": "1791244968402-5preed8ke",
+        "id": "editor-group-cb50649e-9912-4d04-ada6-ef98b9b6faad",
+        "tabIds": [
+          "1791075296506-75ncwb5fn",
+          "1791117212556-eozycjjue",
+          "1791163144414-72dga60i5",
+          "1791244968402-5preed8ke"
+        ]
+      }
+    },
+    "navigationHistory": [
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "每日笔记.md",
+        "path": "每日笔记.md"
+      },
+      {
+        "isFolder": true,
+        "kind": "file",
+        "name": "2026",
+        "path": "2026"
+      },
+      {
+        "isFolder": true,
+        "kind": "file",
+        "name": "10",
+        "path": "2026/10"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-01.md",
+        "path": "2026/10/2026-10-01.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "每日笔记.md",
+        "path": "每日笔记.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-01.md",
+        "path": "2026/10/2026-10-01.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-02.md",
+        "path": "2026/10/2026-10-02.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-01.md",
+        "path": "2026/10/2026-10-01.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-02.md",
+        "path": "2026/10/2026-10-02.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-01.md",
+        "path": "2026/10/2026-10-01.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-03.md",
+        "path": "2026/10/2026-10-03.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-04.md",
+        "path": "2026/10/2026-10-04.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-04周总结.md",
+        "path": "2026/10/2026-10-04周总结.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-05.md",
+        "path": "2026/10/2026-10-05.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-06.md",
+        "path": "2026/10/2026-10-06.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-05.md",
+        "path": "2026/10/2026-10-05.md"
+      },
+      {
+        "isFolder": false,
+        "kind": "file",
+        "name": "2026-10-06.md",
+        "path": "2026/10/2026-10-06.md"
+      }
+    ],
+    "navigationIndex": 16,
+    "root": {
+      "groupId": "editor-group-cb50649e-9912-4d04-ada6-ef98b9b6faad",
+      "id": "editor-node-5c498cee-a528-4906-aa92-9dec1f28035a",
+      "type": "group"
+    },
+    "version": 1,
+    "workspaceKey": "D:/NoteGen"
+  },
+  "fileManagerTextSize": "sm",
+  "canvasGridVisible": true,
+  "enableOutline": false,
+  "leftSidebarVisible": true,
+  "textToSpeechMode": "auto",
+  "ragStructuredKnowledgeConsent": true,
+  "customThemeColors": {
+    "dark": {
+      "accent": null,
+      "accentForeground": null,
+      "background": null,
+      "border": null,
+      "card": null,
+      "cardForeground": null,
+      "foreground": null,
+      "muted": null,
+      "mutedForeground": null,
+      "primary": null,
+      "primaryForeground": null,
+      "secondary": null,
+      "secondaryForeground": null,
+      "shadow": null,
+      "third": null,
+      "thirdForeground": null
+    },
+    "light": {
+      "accent": null,
+      "accentForeground": null,
+      "background": null,
+      "border": null,
+      "card": null,
+      "cardForeground": null,
+      "foreground": null,
+      "muted": null,
+      "mutedForeground": null,
+      "primary": null,
+      "primaryForeground": null,
+      "secondary": null,
+      "secondaryForeground": null,
+      "shadow": null,
+      "third": null,
+      "thirdForeground": null
+    }
+  },
+  "editorViewMode": "visual",
+  "editorModel": "",
+  "placeholderModel": "",
+  "version": "0.38.0",
+  "gitlabCustomUrl": ""
+}
